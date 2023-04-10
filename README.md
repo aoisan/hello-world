@@ -47,6 +47,7 @@ remove  | 削除
 ## リモートリポジトリへ新規情報を追加
     git remote add origin https://github.com/aoisan/hello-world.git  
 
-
+## ブランチの削除
+    git branch -d develop
 
 
