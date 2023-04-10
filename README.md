@@ -8,6 +8,10 @@ Gitをテストしてます。
 ## 2.ファイルを編集
 「README.md」を編集  
 
+
+## ファイルを削除
+    git rm ToDo.txt  
+
 ## 3.現在の状態確認
     git status  
 
@@ -73,3 +77,5 @@ remove  | 削除
 #### 開発用ブランチをメインへマージ   
     git merge develop  
 
+
+    
