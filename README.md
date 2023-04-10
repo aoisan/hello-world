@@ -26,7 +26,14 @@ git commit -m "[update]文章編集"
 fix:バグ修正  
 add:追加  
 update:（バグではない）修正、更新  
-remove:削除  git
+remove:削除  
+
+Prefix  | 概要
+------------- | -------------
+fix  | バグ修正
+add  | 追加
+update  | （バグではない）修正、更新  
+remove  | 削除
 
 ### Redmineなどのチケットの紐づけ
 refs #xxx コメント  
