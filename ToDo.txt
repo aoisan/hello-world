@@ -1,0 +1,23 @@
+/------------------
+ToDo
+------------------/
+
+
+
+
+
+## ブランチ一覧と現在作業中のブランチ表示
+    git branch
+
+## ブランチ作成
+    git branch develop
+
+## ブランチへ移動
+    git checkout develop
+
+
+## ローカルリポジトリへ追加、コミット
+    git status
+    git add README.md  
+    git commit -m "[add]ToDoファイル追加"  
+     
