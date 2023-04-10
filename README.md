@@ -17,9 +17,12 @@ Gitをテストしてます。
 ## コミットしたいファイルを指定
     git add README.md  
 
+#### 一度に複数のファイルを指定する場合
+    git add README.md *.txt
+
 ## 4指定したファイルをローカルにコミット
     git commit -m "[Prefix]コメント"  
-
+    
 
 #### コメント簡易版
 
@@ -50,4 +53,23 @@ remove  | 削除
 ## ブランチの削除
     git branch -d develop
 
+
+
+
+## ブランチ一覧と現在作業中のブランチ表示
+    git branch
+
+## 開発のため作業用ブランチ作成
+    git branch develop
+
+## 開発用ブランチへ移動
+    git checkout develop
+
+
+## 開発用ブランチをメインへマージする。
+#### メインへ移動  
+    git checkout master  
+    
+#### 開発用ブランチをメインへマージ   
+    git merge develop  
 
