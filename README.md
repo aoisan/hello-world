@@ -5,7 +5,7 @@ Gitをテストしてます。
 ## 1.クローンして複製、デフォルトだと自動的にチェックアウト
     git clone https://github.com/aoisan/hello-world.git  
 
-## 2.ファイルを編集
+## 2.ファイルを編集する
 「README.md」を編集  
 
 
@@ -21,7 +21,7 @@ Gitをテストしてます。
 ## コミットしたいファイルを指定
     git add README.md  
 
-#### 一度に複数のファイルを指定する場合
+#### 一度に複数のファイルを指定する場合、
     git add README.md *.txt
 
 ## 4指定したファイルをローカルにコミット
@@ -54,28 +54,29 @@ remove  | 削除
 ## リモートリポジトリへ新規情報を追加
     git remote add origin https://github.com/aoisan/hello-world.git  
 
-## ブランチの削除
-    git branch -d develop
 
 
 
-
-## ブランチ一覧と現在作業中のブランチ表示
+## ブランチ一覧と現在作業中のブランチ表示する
     git branch
 
-## 開発のため作業用ブランチ作成
+## 開発のため作業用ブランチ作成する
     git branch develop
 
-## 開発用ブランチへ移動
+## 開発用ブランチへ移動し、編集する
     git checkout develop
 
 
-## 開発用ブランチをメインへマージする。
-#### メインへ移動  
+## 開発用ブランチをメインブランチへマージする
+#### まず、メインへ移動  
     git checkout master  
     
-#### 開発用ブランチをメインへマージ   
+#### メインへ移動後、開発用ブランチをメインへマージ   
     git merge develop  
 
 
-    
+## 不必要なブランチを削除する（一般的には残すらしいので例外的に）
+    git branch -d develop    
+
+
+
