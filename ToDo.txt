@@ -19,7 +19,7 @@ ToDo
 ## ローカルリポジトリへ新ファイル追加、コミット
     git add ToDo.txt  
     git commit -m "[add]ToDoファイル追加"  
-     
+    git add README.md *.txt
 
 ## プッシュして、ローカルの変更をリモートリポジトリに反映する。
     git push origin develop  
