@@ -12,23 +12,23 @@ git clone https://github.com/aoisan/hello-world.git
 ## 3.現在の状態確認
 git status  
 
-## 編集したファイルの差分を確認<br>
-git diff    
+### 編集したファイルの差分を確認
+git diff  
 
-## 編集したコミットしたいファイルを指定
+## コミットしたいファイルを指定
 git add README.md  
 
-## 4.編集したファイルをローカルにコミット
+## 4指定したファイルをローカルにコミット
 git commit -m "[update]文章編集"  
 
 
-## コメント簡易版
+### コメント簡易版
 fix:バグ修正  
 add:追加  
 update:（バグではない）修正、更新  
-remove:削除  
+remove:削除  git
 
-## Redmineなどのチケットの紐づけ
+### Redmineなどのチケットの紐づけ
 refs #xxx コメント  
 
 
