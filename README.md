@@ -7,9 +7,13 @@ test
 git clone https://github.com/aoisan/hello-world.git
 
 2.ファイルを編集
+「README.md」を編集
 
 3.現在の状態確認
 git status
+
+4.編集したコミットしたいファイルを指定
+git add README.md
 
 4.編集したファイルをローカルにコミット
 git commit -m "[update]文章編集"
@@ -22,6 +26,8 @@ remove:削除
 
 Redmineなどのチケットの紐づけ
 refs #xxx コメント
+
+
 
 5.フェッチして、リモートリポジトリが変更されていないか、確認する。
 git fetch https://github.com/aoisan/hello-world.git
