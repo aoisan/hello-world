@@ -12,6 +12,9 @@ git clone https://github.com/aoisan/hello-world.git
 3.現在の状態確認
 git status
 
+編集したファイルの差分を確認
+git diff
+
 4.編集したコミットしたいファイルを指定
 git add README.md
 
