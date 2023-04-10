@@ -5,7 +5,7 @@ Gitをテストしてます。
 ## 1.クローンして複製、デフォルトだと自動的にチェックアウト
     git clone https://github.com/aoisan/hello-world.git  
 
-## 2.ファイルを編集する
+## ファイルを編集する
 「README.md」を編集  
 
 
