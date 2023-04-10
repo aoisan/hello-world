@@ -36,7 +36,7 @@ git fetch https://github.com/aoisan/hello-world.git
 git remote -vv
 
 6.プッシュして、ローカルの変更をリモートリポジトリに反映する。
-
+git push origin master
 
 
 XX.リモートリポジトリへ新規情報を追加
