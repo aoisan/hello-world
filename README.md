@@ -1,8 +1,7 @@
 hello-world
 ===========
 
-Gitについて
-テストしてます。
+Gitをテストしてます。
 ## 1.クローンして複製、デフォルトだと自動的にチェックアウト
     git clone https://github.com/aoisan/hello-world.git  
 
@@ -19,7 +18,7 @@ Gitについて
     git add README.md  
 
 ## 4指定したファイルをローカルにコミット
-    git commit -m "[update]文章編集"  
+    git commit -m "[Prefix]コメント"  
 
 
 #### コメント簡易版
@@ -31,8 +30,8 @@ add  | 追加
 update  | （バグではない）修正、更新  
 remove  | 削除
 
-#### 以下、Redmineなどのチケットの紐づけテンプレート
-   refs #xxx コメント  
+#### 以下、Redmineなどのチケット紐づけテンプレート
+    refs #番号 コメント  
 
 
 ## 5.フェッチして、リモートリポジトリが変更されていないか\確認する。
