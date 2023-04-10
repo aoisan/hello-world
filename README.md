@@ -1,7 +1,7 @@
 hello-world
 ===========
 
-test
+Gitについて
 テストしてます。
 ## 1.クローンして複製、デフォルトだと自動的にチェックアウト
     git clone https://github.com/aoisan/hello-world.git  
@@ -31,11 +31,11 @@ add  | 追加
 update  | （バグではない）修正、更新  
 remove  | 削除
 
-#### Redmineなどのチケットの紐づけ
-refs #xxx コメント  
+#### 以下、Redmineなどのチケットの紐づけテンプレート
+   refs #xxx コメント  
 
 
-## 5.フェッチして、リモートリポジトリが変更されていないか、確認する。
+## 5.フェッチして、リモートリポジトリが変更されていないか\確認する。
     git fetch https://github.com/aoisan/hello-world.git  
 
 ## リモートリポジトリを確認
@@ -45,7 +45,7 @@ refs #xxx コメント
     git push origin master  
 
 
-XX.リモートリポジトリへ新規情報を追加
+## リモートリポジトリへ新規情報を追加
     git remote add origin https://github.com/aoisan/hello-world.git  
 
 
