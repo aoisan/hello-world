@@ -1,6 +1,6 @@
 hello-world
 ===========
-
+789
 Gitをテストしてます。
 ## 1.クローンして複製、デフォルトだと自動的にチェックアウト
     git clone https://github.com/aoisan/hello-world.git  
