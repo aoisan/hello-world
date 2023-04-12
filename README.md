@@ -1,6 +1,6 @@
 hello-world
 ===========
-
+55
 Gitをテストしてます。
 ## 1.クローンして複製
     git clone https://github.com/aoisan/hello-world.git  
