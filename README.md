@@ -2,7 +2,7 @@ hello-world
 ===========
 
 Gitをテストしてます。
-## 1.クローンして複製
+## 1.クローンして複製2
     git clone https://github.com/aoisan/hello-world.git  
 
 ## ファイルを編集する
