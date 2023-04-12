@@ -1,7 +1,7 @@
 hello-world
 ===========
 
-Gitをテストしてます。
+Gitをテストしてます。88  
 ## 1.クローンして複製2
     git clone https://github.com/aoisan/hello-world.git  
 
