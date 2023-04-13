@@ -7,10 +7,10 @@ Gitをテストしてます。
     git init  
     
 ## 管理するファイルを追加する
-    git add ファイル.txt  
+    git add ファイル  
     
 ## ファイルを削除
-    git rm ファイル.txt  
+    git rm ファイル  
     
 ## 変更など、現在の状態を確認する
     git status  
@@ -56,7 +56,10 @@ remove  | 削除
 ## 開発用ブランチへ移動する
     git checkout develop  
     
-## ファイルを編集し、コミットする 
+## ファイルを編集し、コミットする
+
+## add後、最新コミットとの差分を確認する
+    git diff --cached
     
 ## リモートリポジトリを確認
     git remote -v  
@@ -84,4 +87,3 @@ remove  | 削除
     git branch -d develop  
 
 
-test
