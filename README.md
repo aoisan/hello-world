@@ -11,8 +11,7 @@ hello-world
  
 その場合、初回に`--allow-unrelated-histories`オプションを指定する。  
 
-
-    git merge --allow-unrelated-histories master  
+    `git merge --allow-unrelated-histories master`  
     
 ### 注意4
     git merge --allow-unrelated-histories master  
