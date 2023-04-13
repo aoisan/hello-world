@@ -10,3 +10,8 @@ hello-world
  リモートリポジトリを後に作成すると、リモートとローカルが関連のない別々のものとなるため、マージがデフォルトでエラーとなる。  
  その場合、初回に`--allow-unrelated-histories`オプションを指定する。  
     git merge --allow-unrelated-histories master  
+    
+### 注意4
+    git merge --allow-unrelated-histories master  
+    
+    
