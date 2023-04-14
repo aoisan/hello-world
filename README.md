@@ -2,20 +2,19 @@ hello-world
 ===========
 `*.md`をテストしてます。
 
-## 注意1
-    git merge --allow-unrelated-histories master  
-### 注意2
-    git merge --allow-unrelated-histories master
+## プルして最新のリモートリポジトリ「master」をローカルリポジトリ「master」に反映させる
+    git pull origin master
 
-### 注意3
-リモートリポジトリを後に作成すると、リモートとローカルが関連のない別々のものとなるため、マージがデフォルトでエラーとなる。  
- 
-その場合、初回に`--allow-unrelated-histories`オプションを指定する。  
+## ローカル内の開発用ブランチをメインブランチへマージする  
+1. まず、メインへ移動
+    git checkout master
 
-    git merge --allow-unrelated-histories master
+2. メインへ移動後、開発用ブランチをメインへマージ  
+    git merge develop
 
+## プッシュして、ローカル「master」の変更をリモートリポジトリに反映する
+    git push origin master 
 
-### 注意4
-    git merge --allow-unrelated-histories master  
-    
+## 不必要なブランチを削除する
+    git branch -d develop 
     
